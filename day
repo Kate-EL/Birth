@@ -20,7 +20,9 @@ int main()
 
     cout << "Please enter your birthday in the same format" <<endl;
     cin >> birth_month >> birth_day >> birth_year;
-
+    
+    if(year>birth_year)
+    {
     switch(birth_month)
     {
             case 1:
@@ -363,7 +365,7 @@ int main()
                     cout <<"Your birthday was this month!" <<endl;
                     cout << "You are " << (year-birth_year) << " years old!" <<endl;
                 }
-
+            
                 else
                 {
                     cout <<"That is not a day of December"<<endl;
@@ -374,6 +376,9 @@ int main()
             break;
             default: cout << "That is not a month" <<endl;
     }
+    }
+    else
+        cout << "Not a valid Birth year" <<endl;
     return 0;
 }
 
