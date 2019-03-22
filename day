@@ -1,0 +1,381 @@
+/*
+ *  Created on: Mar 22, 2019
+ *      Author: Kate Lee
+ */
+
+
+#include<iostream>
+#include<string>
+
+
+using namespace std;
+
+int main()
+{
+	int day, month, year;
+	int birth_day,birth_month, birth_year;
+
+    cout << "Please enter the current date in this format (mm dd yyyy)" <<endl;
+    cin >> month >> day >> year;
+
+    cout << "Please enter your birthday in the same format" <<endl;
+    cin >> birth_month >> birth_day >> birth_year;
+
+    switch(birth_month)
+    {
+            case 1:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<32&&day<32)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of January"<<endl;
+                }
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            case 2:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<30&day<30)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of February"<<endl;
+                }
+
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            case 3:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<32&&day<32)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of March"<<endl;
+                }
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            case 4:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<31&&day<31)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of April"<<endl;
+                }
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            case 5:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<32&&day<32)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of May"<<endl;
+                }
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            case 6:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<31&&day<31)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of January"<<endl;
+                }
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            case 7:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<32&&day<32)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of July"<<endl;
+                }
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            case 8:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<32&&day<32)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of August"<<endl;
+                }
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            case 9:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<31&&day<31)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of September"<<endl;
+                }
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            case 10:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<32&&day<32)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of October"<<endl;
+                }
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            case 11:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<31&&day<31)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of November"<<endl;
+                }
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            case 12:
+            if(birth_month==month)
+            {
+                if(birth_day==day)
+                {
+                    cout << "Happy Birthday!"<<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else if(birth_day > day && birth_day>0 && day>0)
+                {
+                    cout <<"Your birthday is this month!"<<endl;
+                    cout << "You are currently " << (year-birth_year-1) << " years old!" <<endl;
+                }
+
+                else if(birth_day < day && birth_day<32&&day<32)
+                {
+                    cout <<"Your birthday was this month!" <<endl;
+                    cout << "You are " << (year-birth_year) << " years old!" <<endl;
+                }
+
+                else
+                {
+                    cout <<"That is not a day of December"<<endl;
+                }
+            }
+            else
+                cout << "Your birthday is not this month" <<endl;
+            break;
+            default: cout << "That is not a month" <<endl;
+    }
+    return 0;
+}
+
+
+
